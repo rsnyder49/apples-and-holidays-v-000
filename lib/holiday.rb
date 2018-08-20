@@ -75,7 +75,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday_supplies == supplies[-1]
         puts " #{holiday.capitalize}: #{supplies.capitalize}"
       else 
-        puts " #{holiday.capitalize}: #{holiday_supplies.capitalize}, "
+        puts " #{holiday.capitalize}: #{supplies.capitalize}, "
         end 
       end
     end

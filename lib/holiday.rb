@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_array.each do |lowercase_holiday|
         lowercase_holiday.capitalize
       holiday_str = lowercase_holiday.join(" ")
-      puts "  #{holiday_str.capitalize!}: #{supplies.join(", ")}"
+        puts "  #{holiday_str.capitalize!}: #{supplies.join(", ")}"
       end
     end
   end

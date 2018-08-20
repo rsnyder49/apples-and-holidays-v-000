@@ -76,9 +76,9 @@ def all_supplies_in_holidays(holiday_hash)
       
       supply_str = supplies.join
       supply_array = supply_str.split(" ")
-      puts supply_array
+      
       supply_array.each{|supply| supply.capitalize!}
-      #puts "  #{holiday_array.join(" ")}: #{supplies.join(", ")}"
+      puts "  #{holiday_array.join(" ")}: #{supplies.join(", ")}"
     end
   end
 end 

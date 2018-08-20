@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
     
     holiday.each do |holiday, supplies|
       supplies.each do |supply|
-      holiday_supplies = supply
      
       if supply == supplies[-1]
         puts " #{holiday.capitalize}: #{supply.capitalize}"

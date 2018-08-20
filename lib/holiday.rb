@@ -72,9 +72,9 @@ def all_supplies_in_holidays(holiday_hash)
       supplies.each do |supply|
       holiday_supplies = supply
       if holiday_supplies = supply[-1]
-        puts "#{holiday.capitalize}: #{holiday_supplies.capitalize}"
+        puts " #{holiday.capitalize}: #{holiday_supplies.capitalize}"
       else 
-        puts "#{holiday.capitalize}: #{holiday_supplies.capitalize},"
+        puts " #{holiday.capitalize}: #{holiday_supplies.capitalize}, "
         end 
       end
     end
